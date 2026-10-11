@@ -69,3 +69,28 @@ Return_Reason: 16168 missing (89.598%)
 Promotion_Code: 9737 missing (53.96%)
 Customer_Rating: 3435 missing (19.036%)
 Inventory_Level: 198 missing (1.097%)
+
+## Running the project
+
+### 1. Setting up environment
+Open the project in an IDE, such as VSCode. In the terminal, create a virtual environment. For Windows, you can run the following commands:
+```bash
+python3 -m venv .venv
+.venv\Scripts\activate
+```
+
+To exit the virtual environment, you can run:
+```bash
+deactivate
+```
+
+### 2. Download dependencies
+
+Install dependencies by running the following command in the terminal while in a virtual environment:
+
+```bash
+pip install -r requirements.txt
+```
+### 3. Start notebook
+
+You can start the notebook by navigating the the notebook, and depending on your IDE of choice, pressing run cell on each cell (usually top to bottom).
